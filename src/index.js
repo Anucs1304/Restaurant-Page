@@ -1,4 +1,3 @@
-//console.log("Webpack is running!");
 import loadHome from "./home";
 import loadMenu from "./menu";
 import loadContact from "./contact";
@@ -29,4 +28,4 @@ function init() {
   loadHome();
 }
 
-init();
+document.addEventListener("DOMContentLoaded", init);

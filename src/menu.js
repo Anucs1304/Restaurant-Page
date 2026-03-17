@@ -6,7 +6,7 @@ export default function loadMenu() {
   title.textContent = "Menu";
 
   const item = document.createElement("p");
-  item.textContent = "🍝 Pasta — €12";
+  item.textContent = "Pasta — €12";
 
   container.appendChild(title);
   container.appendChild(item);
